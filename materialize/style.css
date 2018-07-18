@@ -3,6 +3,7 @@ body {
 	background-color: #000000;
 	margin: 0px;
 	overflow: hidden;
+	font-family: 'Raleway Dots', cursive;
 }
 a {
 	color:#0078ff;
@@ -12,23 +13,17 @@ a {
 	top: 10px; width: 100%;
 	color: #ffffff;
 	padding: 5px;
-	font-family: raleway;
+	font-family: 'Raleway Dots', cursive;
 	font-size: 13px;
 	text-align: center;
 	z-index:100;
 }
-a {
-	color: orange;
-	text-decoration: none;
-}
-a:hover {
-	color: #0080ff;
-}
 
-#info {
-	position: absolute;
+
+.playIt {
+position: absolute;
 	top: 10px;
-	width: 100%;
+	max-width: "10"0%;
 	text-align: center;
 	z-index: 100;
 	display:block;
